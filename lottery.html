@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Lottery</title>
+<link rel="stylesheet" href="lottery.css">
+</head>
+
+<body>
+    <h1> Welcome to lottery check</h1>
+<div id="container">
+    <div id="infoLookup">
+    <p>Please enter your 4 digit codes </p>
+
+    <p>Digit 1</p> <input id="digitOne" type="number" required>
+    <p>Digit 2</p> <input id="digitTwo" type="number" required>
+    <p>Digit 3</p> <input id="digitThree" type="number" required>
+    <p>Digit 4</p> <input id="digitFour" type="number" required> <br>
+    
+
+    <button id="verifyButton" onclick="verifyDigits()">Verify</button>
+    </div>
+
+    <div id="resultBoard">
+        <div id="resultBoard-Text">
+
+        </div><br>
+
+        <div id="resultBoard-Img">
+
+        </div>
+
+    </div>
+</div>
+
+<div id="winningNumbers">
+    <p id="lastPara"> Wining numbers: </p>
+    <button class="win" id="win1"></button>
+    <button class="win" id="win2"></button>
+    <button class="win" id="win3"></button>
+    <button class="win" id="win4" ></button>
+</div>
+
+<div id="displayVictory">
+    <p id="winningMessage"></p>
+    <p id="losingMessage"></p>
+</div>
+
+<script src="lottery.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,38 @@
+
+#container{
+    display: flex;
+    flex-direction: row;  
+}
+
+#infoLookup{
+    flex:1;
+    padding: 20px;
+    width: 400px;
+}
+#resultBoard{
+border: 2px solid black;
+width: 400px;
+padding: 40px;
+text-align: center;
+font-size: larger;
+}
+input{
+    width: 200px;
+}
+
+.win{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+#lastPara{
+    font-size: larger;
+}
